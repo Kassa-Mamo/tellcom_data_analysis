@@ -1,0 +1,1 @@
+"flask\nstreamlit\npandas\nnumpy\nmatplotlib\nscikit-learn\nseaborn\nplotly" 
