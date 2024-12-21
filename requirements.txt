@@ -1,1 +1,8 @@
-"flask\nstreamlit\npandas\nnumpy\nmatplotlib\nscikit-learn\nseaborn\nplotly" 
+flask
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+seaborn
+plotly

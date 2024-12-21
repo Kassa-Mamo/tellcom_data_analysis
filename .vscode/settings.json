@@ -1,1 +1,33 @@
-"{}" 
+{
+    "python.pythonPath": "C:\\Users\\user\\myenv\\Scripts\\python.exe",  // Path to Python interpreter
+    "python.linting.enabled": true,  // Enable linting
+    "python.linting.pylintEnabled": true,  // Enable pylint linter
+    "python.linting.pylintArgs": [
+      "--max-line-length=120"  // Max line length for pylint
+    ],
+    "python.linting.flake8Enabled": true,  // Enable flake8 linter
+    "python.linting.flake8Args": [
+      "--max-line-length=120"  // Max line length for flake8
+    ],
+    "python.formatting.provider": "black",  // Use Black for formatting
+    "python.formatting.blackArgs": [
+      "--line-length", 
+      "120"  // Line length for Black
+    ],
+    "editor.formatOnSave": true,  // Format code on save
+    "editor.rulers": [
+      80, 
+      120  // Rulers for visual line length guides
+    ],
+    "python.autoComplete.extraPaths": [
+      "./src"  // Add the src directory for autocompletion
+    ],
+    "python.testing.unittestEnabled": true,  // Enable unittest
+    "python.testing.pytestEnabled": true,  // Enable pytest
+    "python.testing.pytestArgs": [
+      "tests"  // Specify tests folder
+    ],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,  // Auto-discover tests
+    "python.testing.pytestPath": "C:\\Users\\user\\myenv\\Scripts\\pytest.exe"  // Path to pytest in your virtual environment
+  }
+  
